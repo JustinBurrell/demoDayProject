@@ -142,9 +142,7 @@ li {
   #slogan {
     display: flex;
     text-align: center;
-    background-color: rgb(93, 188, 210)188, 210)
-
-    ;
+    background-color: #008CBA;
     border: #008CBA solid 2.5px;
     border-radius: 15px;
     text-align: left;
