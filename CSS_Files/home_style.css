@@ -1,8 +1,6 @@
-*{
-    margin: 0;
-    font-family: "Arial";
+* {
+    font-family: 'Raleway', sans-serif;
 }
-
 #navbar {
     background-color: white;
     position: sticky;
@@ -17,7 +15,7 @@
     overflow: hidden;
     border-bottom: rgb(0, 0, 0) solid 2px;
     height: 100px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #navbar_title {
@@ -33,6 +31,7 @@ li {
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
+    font-family: "Arial";
 }
 
 .bar a {
@@ -64,14 +63,53 @@ li {
 #main_section {
     margin: 5px;
     padding: 5px;
+
 }
 
 #welcometext{
-    font-size: 20px;
+    font-size: 20px;   
+    font-family: 'Raleway', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 3px solid black;
+    color: white;
+    background-image: url("/images/image.png");
+    /* padding: 50px 20px 300px; */
+}
 
+#welcometext h1 {
+    padding: 200px;
+    text-align: center;
+    font-size: 80px;
 }
 
 #missionheader h1{
     text-align: center;
-    
 }
+
+#missiontext p{
+    padding-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#virtualopportunities {
+    text-align: center;
+}
+
+#IrlOpportunities {
+    text-align: center;
+}
+
+#virtualbutton {
+    display: block;
+  width: 100%;
+  border: none;
+  background-color: rgb(221, 220, 220);
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
