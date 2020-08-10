@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    font-family: "Arial";
+}
+
+#navbar {
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+#navbar_options { 
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-bottom: rgb(0, 0, 0) solid 2px;
+    height: 100px;
+    justify-content: space-between;
+}
+
+#navbar_title {
+    text-decoration: none;
+    font-style: italic;
+    padding-top: 5px;
+    font-size: 80px;
+    font-weight: 700;
+    text-shadow: 2px 2px black;
+}
+
+li {
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.bar a {
+    display: flex;
+    text-decoration: none;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 30px;
+    height: 100px;
+}
+
+.bar a:hover {
+    opacity: 0.5;
+    border-top: 4px solid black;
+}
+
+#searchbar {
+    display: flex;
+    text-decoration: none;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 30px;
+    height: 50px;
+    text-align: center;
+  }
+
+#main_section {
+    margin: 5px;
+    padding: 5px;
+}
+
+#welcometext{
+    font-size: 20px;
+
+}
+
+#missionheader h1{
+    text-align: center;
+    
+}
