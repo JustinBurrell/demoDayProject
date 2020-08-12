@@ -79,7 +79,7 @@ body{
     padding-right: 50px;
     border: 3px solid black;
     color: #663399;
-    background-image: url(/images/backgroundimage.png);
+    background-image: url(backgroundimage.png);
     background-repeat: no-repeat;
     background-size: cover;
     
