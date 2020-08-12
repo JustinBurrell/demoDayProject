@@ -1,10 +1,13 @@
-*{
-    margin: 0;
-    font-family: "Arial";
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background-color: #f6f7f9;
 }
 
 #navbar {
-    background-color: white;
+    background-color: #f6f7f9;
     position: sticky;
     top: 0;
 }
@@ -33,6 +36,7 @@ li {
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
+    font-family: "Arial";
 }
 
 .bar a {
@@ -46,8 +50,8 @@ li {
 }
 
 .bar a:hover {
-    opacity: 0.5;
-    border-top: 4px solid black;
+    /* opacity: 0.5; */
+    border-top: 4px solid #663399;
 }
 
 #searchbar {
@@ -60,3 +64,81 @@ li {
     height: 50px;
     text-align: center;
   }
+
+#main_section {
+    margin: 5px;
+    padding: 5px;
+
+}
+
+#welcometext{
+    margin: 5px;
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 3px solid black;
+    color: #663399;
+    background-image: url(/images/backgroundimage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* padding: 50px 20px 300px; */
+}
+
+#welcometext h1 {
+    padding: 200px;
+    font-weight: 200;
+    text-align: center;
+    font-size: 80px;
+}
+
+#progbar {
+    background-color: whitesmoke;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    width: 50vw;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.container > * {
+    width: 100%;
+}
+
+#progressBar {
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid purple;
+    margin-top: 1.5rem;
+    background-color: #fff;
+}
+
+#progressBarFull {
+    height: 3.4rem;
+    background-color: purple;
+    width: 0%;
+}
+
+#tracker {
+    text-align: center;
+}
+
+#hourslog {
+    text-align: center;
+}
+
+#yourprogress {
+ text-align: center;
+}

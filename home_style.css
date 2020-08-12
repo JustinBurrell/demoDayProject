@@ -1,8 +1,13 @@
 * {
     font-family: 'Raleway', sans-serif;
 }
+
+body{
+    background-color: #f6f7f9;
+}
+
 #navbar {
-    background-color: white;
+    background-color: #f6f7f9;
     position: sticky;
     top: 0;
 }
@@ -45,8 +50,8 @@ li {
 }
 
 .bar a:hover {
-    opacity: 0.5;
-    border-top: 4px solid black;
+    /* opacity: 0.5; */
+    border-top: 4px solid #663399;
 }
 
 #searchbar {
@@ -67,19 +72,22 @@ li {
 }
 
 #welcometext{
-    font-size: 20px;   
+    font-size: 50px;
     font-family: 'Raleway', sans-serif;
     padding-left: 50px;
     padding-right: 50px;
     border: 3px solid black;
-    color: white;
+    color: #663399;
     background-image: url("/images/backgroundimage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     
     /* padding: 50px 20px 300px; */
 }
 
 #welcometext h1 {
     padding: 200px;
+    font-weight: 200;
     text-align: center;
     font-size: 80px;
 }
@@ -88,8 +96,12 @@ li {
     text-align: center;
 }
 
+#missionstatement {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
 #missiontext p{
-    padding-bottom: 10px;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     text-align: center;
@@ -99,12 +111,20 @@ li {
     text-align: center;
 }
 
+#virtualopportunities p{
+    padding: 15px;
+}
+
 #IrlOpportunities {
     text-align: center;
 }
 
+#IrlOpportunities p {
+    padding: 15px;
+}
+
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: #008CBA; /* Green */
     border: none;
     color: white;
     padding: 16px 32px;
@@ -120,22 +140,22 @@ li {
   .button1 {
     background-color: white; 
     color: black; 
-    border: 2px solid #4CAF50;
+    border: 2px solid #663399;
   }
   
   .button1:hover {
-    background-color: #4CAF50;
+    background-color: #663399;
     color: white;
   }
   
   .button2 {
     background-color: white; 
     color: black; 
-    border: 2px solid #008CBA;
+    border: 2px solid #663399;
   }
   
   .button2:hover {
-    background-color: #008CBA;
+    background-color: #663399;
     color: white;
   }
   
@@ -145,7 +165,8 @@ li {
     background-color: #008CBA;
     border: #008CBA solid 2.5px;
     border-radius: 15px;
-    text-align: left;
+    text-align: center;
+    justify-content: center;
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -153,11 +174,14 @@ li {
 
   #slogan img{
       width: 90px;
+      height: 90px;
+
   }
 
   #opportunities { 
     display: flex;
     justify-content: space-around;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
-
-
+ 

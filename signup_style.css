@@ -1,10 +1,13 @@
-*{
-    margin: 0;
-    font-family: "Arial";
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background-color: #f6f7f9;
 }
 
 #navbar {
-    background-color: white;
+    background-color: #f6f7f9;
     position: sticky;
     top: 0;
 }
@@ -33,6 +36,7 @@ li {
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
+    font-family: "Arial";
 }
 
 .bar a {
@@ -46,8 +50,8 @@ li {
 }
 
 .bar a:hover {
-    opacity: 0.5;
-    border-top: 4px solid black;
+    /* opacity: 0.5; */
+    border-top: 4px solid #663399;
 }
 
 #searchbar {
@@ -61,3 +65,25 @@ li {
     text-align: center;
   }
 
+#main_section {
+    margin: 5px;
+    padding: 5px;
+
+}
+
+#welcometext{
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #663399;
+    
+    /* padding: 50px 20px 300px; */
+}
+
+#welcometext h1 {
+    padding: 200px;
+    font-weight: 200;
+    text-align: center;
+    font-size: 80px;
+}

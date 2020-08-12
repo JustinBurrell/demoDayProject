@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="account_style.css">
     <script src="account_script.js" defer></script>
 
@@ -22,7 +23,7 @@
             <li><a href="" id="navbar_title"><img src="/images/kinectlogo.jpg"></a>
             </li>   
             <li id="volunteerBtn" class="bar">
-                <a href="volunteer.html" >Volunteer</a>
+                <a href="virtualopportunites.html" >Volunteer</a>
             </li>    
             <li id="searchbar" class="bar">
                 <input type="text" placeholder="Search..">
@@ -30,5 +31,38 @@
         </ul>
     </div>
 
+    <!-- Main Section -->
+    <div id="mainsection">
+        <div id="welcometext">
+            <h1>Your Account</h1>
+        </div>
+    </div>
+    <br><br>
+    <h2 id="yourprogress">
+        Your Progress:
+    </h2>
+        <form>
+            <div id = "hourslog">
+                Hours Completed: <input type="text" placeholder="Hours" id="completed_textbox">
+                <br><br>
+                Hours Required:
+                <input type ="text"
+                placeholder="Hours Required" id = "required_textbox">
+            </div>
+        </form>
+      
+
+<!--Progress Bar-->
+    <div id="progbar" class="container">
+        <div id="progressBar">
+            
+         <div id="progressBarFull"></div>   <br> 
+            <p id="tracker"> 0 Hours/ 100 Hours <p>  </div>
+            </div>
+              
+         
+        </div>
+
+       
 </body>
 </html>
