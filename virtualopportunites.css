@@ -136,6 +136,10 @@ li {
     display: none;
 }
 
+#experienceform {
+    display: none;
+}
+
 #gridHead {
     font-size: 60px;
     font-family: 'Raleway', sans-serif;
@@ -254,7 +258,95 @@ li {
     margin: 20px;
 }
   
+#backBtn:hover {
+    background-color: #663399;
+    color: white;
+}   
+
+#backBtn {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #663399;
+    padding: 20px;
+    margin: 20px;
+}
+  
 .gridInfoButtons:hover {
     background-color: #663399;
     color: white;
-}                                                                                                                         
+}                    
+
+#experienceBtns {
+    display: flex;
+}
+
+#communityserviceBtn {
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#communityserviceBtn button{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #663399;
+    padding: 20px;
+    font-size: 16px;
+}
+
+#communityserviceBtn button:hover {
+    background-color: #663399;
+    color: white;
+}   
+
+
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #f6f7f9;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #f6f7f9;
+  }
+  
+  /* Style the container/contact section */
+  #experienceform {
+    border-radius: 5px;
+    background-color: #f6f7f9;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+
+  .name {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #663399;
+    padding: 10px;
+  }
+
+  /* Clear floats after the columns */
+  .name:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

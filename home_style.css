@@ -96,6 +96,14 @@ li {
     text-align: center;
 }
 
+#communityserviceheader {
+    text-align: center;
+}
+
+#communityserviceheader {
+    font-size: 20px;
+}
+
 #missionstatement {
     padding-bottom: 20px;
     padding-top: 20px;
@@ -169,7 +177,7 @@ li {
     justify-content: center;
     padding: 20px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
 
   #slogan img{

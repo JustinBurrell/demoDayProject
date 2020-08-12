@@ -1,15 +1,19 @@
 //get references 
 let state = 1;
+let mainState = 1;
 let gridBox = document.getElementsByClassName("row");
 let gridBoxText = document.getElementsByClassName("rowText");
 let gridInfo = document.getElementById("gridInfo")
 let gridContainer = document.getElementById("grid-container");
 let gridDes = document.getElementById("gridDes");
+let experienceForm = document.getElementById("experienceform");
 let gridHead = document.getElementById("gridHead");
 let filterContents = document.getElementById("filtercontents");
 let mainText = document.getElementById("maintext");
 let gridInfoButton = document.getElementById("gridInfoButton");
 let gridInfoButtons = document.getElementsByClassName("gridInfoButtons");
+let backBtn = document.getElementById("backBtn");
+let communityserviceBtn = document.getElementById("communityserviceBtn");
 
 let buttonOne = document.getElementById("button1");
 let buttonTwo = document.getElementById("button2");
@@ -41,6 +45,7 @@ for(let i=0; i<gridBox.length; i++){
         filterContents.style.display = "none";
         mainText.style.display = "none";
         gridInfo.style.display = "block";
+        communityserviceBtn.style.display = "none"
         gridHead.innerHTML = gridBoxNames[i];
         gridDes.innerHTML = gridBoxDescriptionsFull[i];
     }
@@ -53,6 +58,25 @@ gridInfoButtons[0].onclick = function(){
     gridContainer.style.display = "flex";
     filterContents.style.display = "block";
     mainText.style.display = "block";
+    gridInfo.style.display = "none";
+    communityserviceBtn.style.display = "block";
+}
+
+backBtn.onclick = function(){
+    gridContainer.style.display = "none";
+    filterContents.style.display = "none";
+    mainText.style.display = "none";
+    gridInfo.style.display = "block";
+    experienceForm.style.display = "none";
+
+}
+
+//mouse functions for plan your experience button
+gridInfoButtons[1].onclick = function(){
+    gridContainer.style.display = "none";
+    experienceForm.style.display = "block"
+    filterContents.style.display = "none";
+    mainText.style.display = "none";
     gridInfo.style.display = "none";
 }
 
@@ -175,3 +199,20 @@ gridInfoButtons[0].onclick = function(){
 
 
 
+let statesArray = [2, 2, 2, 2, 2];
+let selected = [0, 1, 2, 3, 4];
+function filter(){
+    for (let i=0; i<statesArray.length; i++) {
+        console.log(i, selected.includes(i));
+        if (selected.includes(i)) {
+            if (statesArray[i] == 1) {
+                selected.splice(i, 1, "");
+            }
+        } else {
+            if (statesArray[i] == 2) {
+                selected.push(i);
+            }
+        } 
+    }
+    console.log(selected);
+}

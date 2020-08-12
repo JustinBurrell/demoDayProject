@@ -68,7 +68,6 @@ li {
 #main_section {
     margin: 5px;
     padding: 5px;
-
 }
 
 #welcometext{
@@ -87,3 +86,76 @@ li {
     text-align: center;
     font-size: 80px;
 }
+
+#opportunities {
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+#opportunities h1{
+    text-align: center;
+}
+
+#opportunities p{
+    text-align: center;
+}
+
+#buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#virtualopportunities {
+    text-align: center;
+}
+
+#virtualopportunities p{
+    padding: 15px;
+}
+
+#IrlOpportunities {
+    text-align: center;
+}
+
+#IrlOpportunities p {
+    padding: 15px;
+}
+
+.button {
+    background-color: #008CBA; /* Green */
+    border: none;
+    color: white;
+    padding: 100px 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #663399;
+  }
+  
+  .button1:hover {
+    background-color: #663399;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #663399;
+  }
+  
+  .button2:hover {
+    background-color: #663399;
+    color: white;
+  }

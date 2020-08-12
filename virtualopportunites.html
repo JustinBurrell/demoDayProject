@@ -12,18 +12,18 @@
 </head>
 <body>
 
-    
+
 
     <!-- navbar -->
     <div id= "navbar">           
         <ul id="navbar_options">
             <li id="aboutBtn" class="bar">
-                <a href="/index.html">Home</a>
+                <a href="index.html">Home</a>
             </li>
             <li id="signupBtn" class="bar">
                 <a href="about.html" >About</a>
             </li>
-            <li><a href="" id="navbar_title"><img src="/images/kinectlogo.jpg"></a>
+            <li><a href="" id="navbar_title"><img src="images/kinectlogo.jpg"></a>
             </li>   
             <li id="accountBtn" class="bar">
                 <a href="account.html" >Account</a>
@@ -74,7 +74,7 @@
          <div id="catalog">
              <div id="maintext">
                 <div id="title">
-                    <h1>Virtual Opportunities</h1>
+                    <h1>Virtual Opportunities (NYC)</h1>
                  </div>
                  <p>Check out our wide variety of virtual opportunities, click on the boxes for more information, or use the filter to specify your search!</p>
              </div>
@@ -85,9 +85,38 @@
                     <p id="gridDes"></p>
                     <div id="gridInfoButton">
                         <button class="gridInfoButtons">Go Back</button>
-                        <a href= "account.html"><button class="gridInfoButtons">Add to Account</button></a>
+                        <button class="gridInfoButtons">Plan Your Experience</button>
                     </div>
-                    
+                </div>
+            </div>
+
+            <div id="experienceform">
+                <div style="text-align:center">
+                  <h1 class=header>Plan Your Experience</h1>
+                  <p>Every experience begins with a plan. Plan your adventure today</p>
+                </div>
+                <div class="name">
+                  <div class="column">
+                    <form action="/action_page.php">
+                      <label for="fname">Organization Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your Organization">
+                      <label for="lname">Hours</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Hours">
+                      <label for="lname">Date</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Date">
+                      <label for="country">Country</label>
+                      <select id="country" name="country">
+                        <option value="usa">USA</option>
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="uk">UK</option>
+                      </select>
+                    </form>
+                    <div id="experienceBtns">
+                        <button id="backBtn">Go Back</button>
+                        <a href= "account.html"><button id="submitBtn" class="gridInfoButtons">Add to Account</button></a>
+                    </div>
+                  </div>
                 </div>
             </div>
 
@@ -159,6 +188,10 @@
                         <div class="rowTitle">Zooniverse</div>
                         <div class="rowText"></div>
                     </div>
+        </div>
+
+        <div id="communityserviceBtn">
+            <a href="communityservice.html"><button>Community Service</button></a>
         </div>
     </div>
 </div>

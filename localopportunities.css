@@ -32,7 +32,7 @@ body{
     text-shadow: 2px 2px black;
 }
 
-#navbar_options li {
+li {
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -72,16 +72,11 @@ body{
 }
 
 #welcometext{
-    margin: 5px;
     font-size: 50px;
     font-family: 'Raleway', sans-serif;
     padding-left: 50px;
     padding-right: 50px;
-    border: 3px solid black;
     color: #663399;
-    background-image: url(/images/backgroundimage.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     
     /* padding: 50px 20px 300px; */
 }
@@ -93,72 +88,23 @@ body{
     font-size: 80px;
 }
 
-#greeting {
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 40px;
-}
-
-#greetingtext {
-    margin-bottom: 10px;
+#back{
     margin-top: 10px;
-    font-size: 20px;
-}
-
-#greetingtext h1{
-    text-align: center;
-}
-
-#greetingtext p{
-    margin: 20px;
-}
-
-#progbar {
-    background-color: whitesmoke;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-}
-
-.container {
-    width: 50vw;
-    height: 35vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 60rem;
-    margin: 0 auto;
-    padding: 2rem;
 }
 
-.container > * {
-    width: 100%;
-}
+#backBtn:hover {
+    background-color: #663399;
+    color: white;
+}   
 
-#progressBar {
-    width: 20rem;
-    height: 4rem;
-    border: 0.3rem solid purple;
-    margin-top: 1.5rem;
-    background-color: #fff;
+#backBtn {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #663399;
+    padding: 30px 60px;
+    margin: 20px;
 }
-
-#progressBarFull {
-    height: 3.4rem;
-    background-color: purple;
-    width: 0%;
-}
-
-#tracker {
-    text-align: center;
-}
-
-#hourslog {
-    text-align: center;
-}
-
-#yourprogress {
- text-align: center;
-}
+  
