@@ -87,3 +87,24 @@ li {
     text-align: center;
     font-size: 80px;
 }
+
+#back{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#backBtn:hover {
+    background-color: #663399;
+    color: white;
+}   
+
+#backBtn {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #663399;
+    padding: 30px 60px;
+    margin: 20px;
+}
+  

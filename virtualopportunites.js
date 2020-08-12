@@ -192,27 +192,4 @@ gridInfoButtons[1].onclick = function(){
         }
     }
 
-
-
-
-
-
-
-
-let statesArray = [2, 2, 2, 2, 2];
-let selected = [0, 1, 2, 3, 4];
-function filter(){
-    for (let i=0; i<statesArray.length; i++) {
-        console.log(i, selected.includes(i));
-        if (selected.includes(i)) {
-            if (statesArray[i] == 1) {
-                selected.splice(i, 1, "");
-            }
-        } else {
-            if (statesArray[i] == 2) {
-                selected.push(i);
-            }
-        } 
-    }
-    console.log(selected);
-}
+    

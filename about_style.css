@@ -119,18 +119,13 @@ body{
     justify-content: space-evenly;
 }
 
-#galleryOne{
-    flex-direction: row;
+.innergallery {
+  font-weight: bold;
+  font-size: 30px;
 }
 
-#image{
-    width: 300px;
-    height: 300px;
-    background-color: #008CBA;
-    margin-bottom: 25px;
-    text-align: center;
-    border: 3px solid black;
-    color: #f6f7f9;
+#galleryOne{
+    flex-direction: row;
 }
 
 /* Style inputs */
@@ -194,6 +189,61 @@ input[type=text], select, textarea {
 
   .submitBtn:hover {
     background-color: #663399;
+  }
+
+  .imagesText {
+    text-align: center;
+    justify-content: center;
+  }
+
+  #image1{
+    width: 300px;
+    height: 300px;
+    background-image: url(images/justin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 25px;
+    text-align: center;
+    border: 3px solid black;
+    color: #f6f7f9;
+  }
+
+  #image2{
+    width: 300px;
+    height: 300px;
+    background-color: #008CBA;
+    /* until gabe gives pic */
+    /* background-image: url(images/backgroundimage.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 25px;
+    text-align: center;
+    border: 3px solid black;
+    color: #f6f7f9;
+  }
+
+  #image3{
+    width: 300px;
+    height: 300px;
+    background-image: url(images/hebert.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 25px;
+    text-align: center;
+    border: 3px solid black;
+    color: #f6f7f9;
+  }
+
+  #image4{
+    width: 300px;
+    height: 300px;
+    background-image: url(images/noah.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 25px;
+    text-align: center;
+    border: 3px solid black;
+    color: #f6f7f9;
   }
   
 
