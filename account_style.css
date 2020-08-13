@@ -78,7 +78,7 @@ body{
     padding-left: 50px;
     padding-right: 50px;
     border: 3px solid black;
-    color: #663399;
+    color: yellow;
     background-image: url(backgroundimage.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,6 +88,7 @@ body{
 
 #welcometext h1 {
     padding: 200px;
+    text-shadow: 2px 2px grey;
     font-weight: 200;
     text-align: center;
     font-size: 80px;
