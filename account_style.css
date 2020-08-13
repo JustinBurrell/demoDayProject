@@ -88,12 +88,11 @@ body{
 
 #welcometext h1 {
     padding: 200px;
-    text-shadow: 2px 2px grey;
+    text-shadow: 4px 4px grey;
     font-weight: 200;
     text-align: center;
     font-size: 80px;
 }
-
 #greeting {
     text-align: center;
     margin-bottom: 30px;
