@@ -1,10 +1,3 @@
-//get references
-// let hourscompleted = document.getElementById("completed_textbox");
-
-// let userInput = hours.value;
-
-
-
 //progress bar
 const progressBarFull = document.getElementById('progressBarFull');
 
