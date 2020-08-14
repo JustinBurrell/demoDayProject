@@ -5,12 +5,17 @@ let imagesText = document.getElementsByClassName("innergallery");
 //hover functions for image 1
 images[0].onmouseover = function(){
     images[0].style.opacity = "0.5";
-    imagesText[0].innerHTML = "Justin Burrell";
+    imagesText[0].innerHTML = "Justin Burrell <br><br> Coded the Entire Site <br><br> Click for LinkedIn";
 }
 
 images[0].onmouseout = function(){
     images[0].style.opacity = "1";
     imagesText[0].innerHTML = "";
+}
+
+images[0].onclick = function(){
+    window.open('https://www.linkedin.com/in/justin-burrell-51186a18b/', '_blank');
+    window.open('https://www.linkedin.com/in/justin-burrell-51186a18b/');
 }
 
 //hover functions for image 2
